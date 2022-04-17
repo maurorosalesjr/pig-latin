@@ -11,8 +11,15 @@ Test "It will move consonant to the end of the word and add 'ay' for words that 
 code: pigLatin("code");
 Expected Output: "odecay"
 
-Test "It will move ALL consecutive consonants to the end of the word and add 'ay' if word begins with consonant"
+Test "It will move ALL consecutive consonants to the end of the word and add 'ay' if word begins with multiple consonant"
 Code: pigLatin("Trick");
 Expected Output: "icktray"
+
+test: "it will enable multiple words in the string to follow the pig latin functions"
+Code: pigLatin("will this work");
+Expected Output: "illway isthay orkway"
+
+
+
 
 
